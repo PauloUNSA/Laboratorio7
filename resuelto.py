@@ -13,9 +13,9 @@ import numpy as np
 # ABRIR IMÁGENES
 
 # Cargar las tres imágenes desde el disco
-img1 = cv2.imread("imagen1.jpg")
-img2 = cv2.imread("imagen2.jpg")
-img3 = cv2.imread("imagen3.jpg")
+img1 = cv2.imread("imagen1.jpg") # persona
+img2 = cv2.imread("imagen2.jpg") # perro
+img3 = cv2.imread("imagen3.jpg") # gato
 
 # Verificar que las imágenes fueron cargadas correctamente
 if img1 is None or img2 is None or img3 is None:
